@@ -32,25 +32,25 @@ fn negative_ninety_thousand() {
 
 #[test]
 fn negative_nine_thousand() {
-    let i = -9000 as i16;
+    let i = -9000 as i32;
     assert_eq!("-9,000".to_owned(), i.separated_string());
 }
 
 #[test]
 fn negative_nine_hundred() {
-    let i = -900 as i16;
+    let i = -900 as i32;
     assert_eq!("-900".to_owned(), i.separated_string());
 }
 
 #[test]
 fn negative_ninety() {
-    let i = -90 as i16;
+    let i = -90 as i32;
     assert_eq!("-90".to_owned(), i.separated_string());
 }
 
 #[test]
 fn negative_nine() {
-    let i = -9 as i16;
+    let i = -9 as i32;
     assert_eq!("-9".to_owned(), i.separated_string());
 }
 
