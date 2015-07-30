@@ -2,3 +2,4 @@
 name = "separator"
 version = "0.1.0"
 authors = ["Saghm Rossi <saghmrossi@gmail.com>"]
+repository = "https://github.com/saghm/rust-separator"
