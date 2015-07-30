@@ -3,3 +3,6 @@ name = "separator"
 version = "0.1.0"
 authors = ["Saghm Rossi <saghmrossi@gmail.com>"]
 repository = "https://github.com/saghm/rust-separator"
+readme = "README.md"
+keywords = ["comma", "commas", "separate", "separator", "separates", "separators", "num", "number", "int"]
+license = "MIT"
