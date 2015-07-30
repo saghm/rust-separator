@@ -2,6 +2,7 @@
 name = "separator"
 version = "0.1.0"
 authors = ["Saghm Rossi <saghmrossi@gmail.com>"]
+description = "Formats numbers into strings with thousands separators for readability."
 repository = "https://github.com/saghm/rust-separator"
 readme = "README.md"
 keywords = ["comma", "commas", "separate", "separator", "separates", "separators", "num", "number", "int"]
