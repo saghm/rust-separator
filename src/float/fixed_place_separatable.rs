@@ -4,14 +4,14 @@ pub trait FixedPlaceSeparatable {
 
 impl FixedPlaceSeparatable for f32 {
     fn separated_string_with_fixed_place(&self, places: usize) -> String {
-        let mut string = format!("{:.*}", places, self);
+        let string = format!("{:.*}", places, self);
         separated_float!(string)
     }
 }
 
 impl FixedPlaceSeparatable for f64 {
     fn separated_string_with_fixed_place(&self, places: usize) -> String {
-        let mut string = format!("{:.*}", places, self);
+        let string = format!("{:.*}", places, self);
         separated_float!(string)
     }
 }
