@@ -5,6 +5,8 @@ pub mod float;
 pub mod unsigned_int;
 pub mod signed_int;
 
+pub use float::FixedPlaceSeparatable;
+
 /// Used for numbers that can be printed with separators for the thousands places.
 pub trait Separatable {
 

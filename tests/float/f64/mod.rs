@@ -1,4 +1,4 @@
-use separator::Separatable;
+use separator::{FixedPlaceSeparatable ,Separatable};
 
 #[test]
 fn negative_ninety_million_point_two_two_two() {
@@ -41,4 +41,10 @@ fn ninety_point_one_point_two_one_three_four() {
 fn negative_nine_point_five_ish() {
     let f : f64 = -9.558914;
     assert_eq!("-9.558914", &f.separated_string());
+}
+
+#[test]
+fn format_to_two_places() {
+    let f : f64 = -9786057.95702;
+    assert_eq!("-9,786,057.96", &f.separated_string_with_fixed_place(2));
 }
