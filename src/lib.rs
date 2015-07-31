@@ -1,3 +1,6 @@
+#[macro_use]
+mod macros;
+
 pub mod float;
 pub mod unsigned_int;
 pub mod signed_int;
