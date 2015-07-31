@@ -1,6 +1,6 @@
 [package]
 name = "separator"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Saghm Rossi <saghmrossi@gmail.com>"]
 description = "Formats numbers into strings with thousands separators for readability."
 repository = "https://github.com/saghm/rust-separator"
