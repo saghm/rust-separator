@@ -1,5 +1,5 @@
 extern crate separator;
 
-mod floats;
-mod unsigned;
-mod signed;
+mod float;
+mod signed_int;
+mod unsigned_int;

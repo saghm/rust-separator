@@ -1,4 +1,4 @@
-pub mod floats;
+pub mod float;
 pub mod unsigned_int;
 pub mod signed_int;
 
