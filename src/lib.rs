@@ -2,8 +2,9 @@
 mod macros;
 
 pub mod float;
-pub mod unsigned_int;
 pub mod signed_int;
+pub mod unsigned_int;
+pub mod usize;
 
 pub use float::FixedPlaceSeparatable;
 
