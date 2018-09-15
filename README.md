@@ -3,7 +3,7 @@
 rust-separator
 ==============
 
-Formats numbers into strings with thousands separators for readability. It currently supports floating-points (`f32` and `f64`), unsigned integers (`u16`, `u32`, and `u64`), signed integers (`i16`, `i32`, `i64`), and size types (`isize` and `usize`).
+Formats numbers into strings with thousands separators for readability. It currently supports floating-points (`f32` and `f64`), unsigned integers (`u16`, `u32`, `u64`, `u128`), signed integers (`i16`, `i32`, `i64`, `i128`), and size types (`isize` and `usize`).
 
 Usage
 -----
