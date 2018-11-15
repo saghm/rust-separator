@@ -1,3 +1,4 @@
+#[macro_export]
 macro_rules! separated_uint_with_output {
     ($string:expr, $output:expr) => {{
         let mut place = $string.len();
