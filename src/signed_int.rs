@@ -20,3 +20,10 @@ impl Separatable for i64 {
         separated_int!(string)
     }
 }
+
+impl Separatable for i128 {
+    fn separated_string(&self) -> String {
+        let string = format!("{}", self);
+        separated_int!(string)
+    }
+}

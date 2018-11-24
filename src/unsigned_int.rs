@@ -20,3 +20,10 @@ impl Separatable for u64 {
         separated_uint!(string)
     }
 }
+
+impl Separatable for u128 {
+    fn separated_string(&self) -> String {
+        let string = format!("{}", self);
+        separated_uint!(string)
+    }
+}
