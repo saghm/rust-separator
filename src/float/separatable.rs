@@ -1,4 +1,4 @@
-use Separatable;
+use crate::Separatable;
 
 macro_rules! separated_float {
     ($string:expr) => {{

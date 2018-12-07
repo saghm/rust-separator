@@ -1,5 +1,6 @@
 [package]
 name = "separator"
+edition = "2018"
 version = "0.4.0"
 authors = ["Saghm Rossi <saghmrossi@gmail.com>"]
 description = "Formats numbers into strings with thousands separators for readability."

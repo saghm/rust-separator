@@ -1,4 +1,4 @@
-use Separatable;
+use crate::Separatable;
 
 impl Separatable for usize {
     fn separated_string(&self) -> String {
