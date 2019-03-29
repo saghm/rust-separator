@@ -3,6 +3,8 @@
 rust-separator
 ==============
 
+**NOTE**: This crate is entirely superseded by the very excellent [num-format](https://crates.io/crates/num-format), which has all the features of `separator` and much, much more. I highly recommend using `num-format` instead of this crate.
+
 Formats numbers into strings with thousands separators for readability. It currently supports floating-points (`f32` and `f64`), unsigned integers (`u16`, `u32`, `u64`, `u128`), signed integers (`i16`, `i32`, `i64`, `i128`), and size types (`isize` and `usize`).
 
 Usage
